@@ -74,6 +74,13 @@ const companions = [
     'your sibling'
 ];
 
+const generateVacation = (activities, locations, companions) => {
+    const activity = activities[Math.floor(Math.random() * activities.length)];
+    const location = locations[Math.floor(Math.random() * locations.length)];
+    const companion = companions[Math.floor(Math.random() * companions.length)];
+
+    return `You will be ${activity} in ${location} with ${companion}.`
+}
 
 console.log('Your next vacation is...');
 
