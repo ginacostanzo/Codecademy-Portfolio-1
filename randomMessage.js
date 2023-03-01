@@ -18,8 +18,7 @@ const activities = [
     'surfing',
     'having a photoshoot',
     'learning a language',
-    'at a spa',
-
+    'at a spa'
 ];
 
 const locations = [
@@ -71,7 +70,8 @@ const companions = [
     'your ex',
     'your pet',
     'your dad',
-    'your sibling'
+    'your sibling',
+    'your significant other'
 ];
 
 const generateVacation = (activities, locations, companions) => {
