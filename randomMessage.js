@@ -82,5 +82,6 @@ const generateVacation = (activities, locations, companions) => {
     return `You will be ${activity} in ${location} with ${companion}.`
 }
 
-console.log('Your next vacation is...');
+console.log('Your next vacation:');
+console.log(generateVacation(activities, locations, companions));
 
